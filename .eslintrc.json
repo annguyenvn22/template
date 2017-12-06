@@ -1,0 +1,34 @@
+{
+    "env": {
+        "browser": true,
+        "jasmine": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:node/recommended"
+    ],
+    "rules": {
+        "indent": 0,
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ]
+    },
+    "plugins": [
+        "angular",
+        "jasmine",
+        "node"
+    ],
+    "globals": {
+        "angular": true,
+        "inject": true,
+        "module": true
+    }
+}

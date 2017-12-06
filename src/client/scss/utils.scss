@@ -1,0 +1,25 @@
+.xxxTemplatexxx-common-popup {
+    display: flex;
+    flex-flow: column nowrap;
+    height: inherit;
+
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .modal-title {
+            flex: 1;
+        }
+    }
+
+    .modal-body {
+        flex: 1;
+    }
+
+    .modal-footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

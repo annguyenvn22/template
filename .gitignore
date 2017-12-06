@@ -1,0 +1,8 @@
+bower_components/
+node_modules/
+docs/node_modules/
+.tmp/
+build/
+src/client/app/app.constants.js
+.idea/
+/src/client/fonts/

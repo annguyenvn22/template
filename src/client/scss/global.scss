@@ -1,0 +1,11 @@
+input:focus, textarea:focus, select:focus, .ui-grid-cell {
+    outline: none 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.no-overflow {
+    overflow: visible !important; // override inline style
+}
